@@ -12,7 +12,9 @@ namespace TodoList_BlazorServer.Data
         public string Todo { get; set; }
 
         public DateTime Deadline { get; set; }
-
+        
+        public string Location {get; set; }
+        
         public bool IsCompleted { get; set; }
 
     }
